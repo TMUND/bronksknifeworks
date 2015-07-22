@@ -1,3 +1,106 @@
-.* {
+html {
+  box-sizing: border-box;
+}
 
+*::after, *::before {
+    box-sizing: border-box;
+}
+
+.navbar-default .navbar-brand {
+    color: black;
+    border-right: solid;
+}
+
+.main {
+  position: relative;
+  bottom: 700;
+  left: 7;
+  margin-left: 240px;
+  height: 690px;
+  width: 1070px;
+  background-color: #7C7D7E;
+}
+
+.main-title {
+  text-align: center;
+  color: black;
+  font-size: 20px;
+}
+
+.main-text {
+  color: black;
+  font-size: 15px;
+  text-align: left;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 25px;
+}
+
+/*.nav.navbar-nav > li > a {
+    border-right: none;
+}
+*/
+
+.contact {
+  list-style-type: none;
+  font-size: 22px;
+  text-align: left;
+  color: black;
+  margin-left: -20;
+  line-height: 1.1em;
+}
+
+.contact > ul > li {
+  list-style-type: none;
+  font-size: 16px;
+  text-align: left;
+  color: black;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.navbar-default {
+    background-color: #ac7c59;
+    border-color: black;
+    border-top: none;
+    border-radius: 0;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: black;
+    font-size: 16px;
+    padding-left: 130px;
+    border-right: 0.5px solid;
+}
+
+.btn-group-vertical > .btn-group::after, .btn-group-vertical > .btn-group::before, .btn-toolbar::after, .btn-toolbar::before, .clearfix::after, .clearfix::before, .container-fluid::after, .container-fluid::before, .container::after, .container::before, .dl-horizontal dd::after, .dl-horizontal dd::before, .form-horizontal .form-group::after, .form-horizontal .form-group::before, .modal-footer::after, .modal-footer::before, .nav::after, .nav::before, .navbar-collapse::after, .navbar-collapse::before, .navbar-header::after, .navbar-header::before, .navbar::after, .navbar::before, .pager::after, .pager::before, .panel-body::after, .panel-body::before, .row::after, .row::before {
+    content: " ";
+    display: none;
+}
+
+.sidebar {
+  width: 236px;
+  height: 710px;
+    background-color: #ac7c59;
+    border-right: 3px solid;
+    border-bottom: 3px solid;
+}
+
+.sidebar-text {
+  font-size: 18px;
+  text-align: left;
+  padding-top: 20px;
+  color: black;
+}
+
+.sidebar-text > li > a {
+  line-height: 2em;
+  color: black;
+}
+
+.container {
+  margin: auto;
+  padding: 0;
 }
