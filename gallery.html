@@ -54,7 +54,7 @@
                     <div class="col-lg-8">
                         <h1>Knife Photo Gallery</h1>
                         <div id="slider">
-                          <a href="#" class="control_next">>></a>
+                          <a href="#" class="control_next">></a>
                           <a href="#" class="control_prev"><</a>
                           <ul>
                             <li><img src="img/hamondstagknife.png" alt="hamondstag" height="200px" width="400px"></li>
@@ -81,13 +81,7 @@
     <script src="js/bootstrap.min.js"></script>
 
     <!-- Menu Toggle Script -->
-    <script>
-      $('#checkbox').change(function(){
-        setInterval(function () {
-            moveRight();
-        }, 3000);
-      });
-      
+    <script>      
         var slideCount = $('#slider ul li').length;
         var slideWidth = $('#slider ul li').width();
         var slideHeight = $('#slider ul li').height();
@@ -124,9 +118,9 @@
         $('a.control_next').click(function () {
             moveRight();
         });
-        </script>
+    </script>
 
-        <script>
+    <script>
         $("#menu-toggle").click(function(e) {
             e.preventDefault();
             $("#wrapper").toggleClass("toggled");
