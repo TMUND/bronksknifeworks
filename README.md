@@ -8,6 +8,7 @@ Redesign of knife website for Lyle B.
 * Tighten up slider on photos page
 * Update "Full Screen" button to change to "sidebar" when clicked
 * Create contact form in page that routes emails to Lyle
+* Add Google fonts
 
 ## Later:
 
